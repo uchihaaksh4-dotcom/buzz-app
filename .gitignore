@@ -1,17 +1,30 @@
-# dependencies
+# ===== Dependencies =====
 node_modules/
+client/node_modules/
+server/node_modules/
 
-# environment variables
+# ===== Environment Variables =====
 .env
+server/.env
+client/.env
 .env.local
 .env.development
 .env.production
 
-# logs
+# ===== Logs =====
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+pnpm-debug.log*
 
-# OS files
+# ===== Build Outputs =====
+client/dist/
+client/build/
+server/dist/
+
+# ===== OS Files =====
 .DS_Store
 Thumbs.db
+
+# ===== Editor =====
+.vscode/
+.idea/
